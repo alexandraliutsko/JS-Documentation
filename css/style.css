@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 30px;
+  color: #333;
+}
+
+.nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: 3px solid rgba(0, 22, 22, 0.4);
+}
+
+.nav-header {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.nav-list {
+  height: 88%;
+  list-style: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.nav-item {
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.main-section {
+  margin: 0 0 15px;
+}
+
+.header {
+  margin: 0 0 20px;
+}
+
+.article {
+  margin: 15px;
+}
+
+.paragraph {
+  margin: 15px 0;
+}
+
+.list {
+  margin: 15px 0;
+  padding: 0 0 0 40px;
+}
+
+.list-item {
+  margin: 15px 0 20px 0;
+}
+
+.code {
+  display: block;
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.ref-link {
+  color: #39478a;
+}
