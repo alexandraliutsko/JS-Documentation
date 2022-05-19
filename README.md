@@ -1,1 +1,1 @@
-Open: https://nekoguard.github.io/JS-Documentation/
+Open: https://alexandraliutsko.github.io/JS-Documentation/
